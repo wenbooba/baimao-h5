@@ -15,6 +15,9 @@
     <button @click="$router.push('/profile')" style="margin-top: 20px; background: #4b5563; color: white; border: none; padding: 8px 16px; border-radius: 20px;">
       个人中心
     </button>
+    <button @click="$router.push('/admin')" style="margin-top: 20px; margin-left: 10px; background: #fbbf24; color: black; border: none; padding: 8px 16px; border-radius: 20px;">
+  管理后台
+</button>
   </div>
 </template>
 
